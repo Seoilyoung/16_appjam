@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_gravity="center"
+    android:weightSum="1"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이디"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="31dp"
+                android:layout_marginStart="31dp"
+                android:textColor="#ffffffff"
+                android:id="@+id/textView32" />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height= "35dp"
+                android:background="#77ffffff"
+                android:id="@+id/edit_id"
+                android:textSize="16sp"
+                android:layout_marginRight="55dp"
+                android:layout_marginEnd="55dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="비밀번호"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#ffffffff"
+                android:id="@+id/textView31"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp" />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height= "35dp"
+                android:background="#77ffffff"
+                android:id="@+id/edit_pwd"
+                android:textSize="16sp"
+                android:layout_marginRight="55dp"
+                android:layout_marginEnd="55dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:inputType="textPassword"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="학교이메일"
+                android:textColor="#ffffffff"
+                android:layout_marginLeft="29dp"
+                android:id="@+id/textView30"
+                android:layout_marginStart="29dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:background="#77ffffff"
+                android:id="@+id/edit_mailid"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/spinner_join"
+                android:layout_toStartOf="@+id/spinner_join" />
+
+            <Spinner
+                android:id="@+id/spinner_join"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="47dp"
+                android:layout_marginEnd="47dp"></Spinner>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="159dp"
+                android:layout_height="35dp"
+                android:background="#3cffffff"
+                android:id="@+id/edit_chk"
+                android:inputType="number"
+                android:layout_gravity="center"
+                android:hint="인증번호입력"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_give"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:text="인증 번호 발송"
+                android:textColor="#ffffffff"
+                android:textSize="15dp"
+                android:background="#3cffffff"
+                />
+
+            <Button
+                android:id="@+id/btn_take"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:text="인증 확인"
+                android:textColor="#ffffffff"
+                android:textSize="15dp"
+                android:background="#3cffffff"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/btn_give"
+                android:layout_toEndOf="@+id/btn_give"
+                android:layout_marginLeft="31dp"
+                android:layout_marginStart="31dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clause"
+                android:id="@+id/txt_clause"
+                android:textColor="#b69b89"
+                android:layout_marginLeft="72dp"
+                android:layout_marginStart="72dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약관을 모두 숙지하였고, 동의합니다"
+            android:textColor="#ffffff" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chk_agree"
+            android:buttonTint="#99ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="등록하기"
+            android:id="@+id/btn_join"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffffff"
+            android:textSize="15dp"
+            android:background="#3cffffff" />
+    </LinearLayout>
+</LinearLayout>

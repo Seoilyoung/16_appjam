@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.androidtown.myko" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".component_server.ApplicationController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".component_login.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".component_login.LoginActivity"
+            android:theme="@style/LoginTheme"/>
+        <activity android:name=".component_login.JoinActivity"
+            android:theme="@style/JoinTheme"/>
+        <activity android:name=".component_main.MainActivity"/>
+    </application>
+
+</manifest>

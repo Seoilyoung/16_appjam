@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">교수님을 부탁해!</string>
+    <string name="total_review"><u>리뷰 더 보기</u></string>
+    <string name="clause"><u>약관 전문읽기</u></string>
+    <string-array name="E_mail">
+        <item>"@swu.ac.kr"</item>
+        <item>"@ssu.ac.kr"</item>
+        <item>"@sogang.ac.kr"</item>
+        <item>"@kookmin.ac.kr"</item>
+        <item>"@hongik.ac.kr"</item>
+        <item>"@kw.ac.krt"</item>
+        <item>"@sejong.ac.kr"</item>
+        <item>"@yonsei.ac.kr"</item>
+        <item>"@korea.ac.kr"</item>
+        <item>"@naver.com"</item>
+
+    </string-array>
+
+    <string-array name="score">
+        <item>1/10</item>
+        <item>2/10</item>
+        <item>3/10</item>
+        <item>4/10</item>
+        <item>5/10</item>
+        <item>6/10</item>
+        <item>7/10</item>
+        <item>8/10</item>
+        <item>9/10</item>
+        <item>10/10</item>
+
+    </string-array>
+
+    <string-array name="arrange">
+        <item>"최신순"</item>
+        <item>"추천순"</item>
+    </string-array>
+    
+</resources>

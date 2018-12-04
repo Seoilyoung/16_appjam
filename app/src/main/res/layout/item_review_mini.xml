@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="350dp"
+    android:layout_height="60dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/txt_mini_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="30dp">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btn_review_good"
+            android:background="@drawable/good_icon"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="23sp"
+            android:id="@+id/txt_mini_good"
+            android:layout_marginRight="5dp"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btn_review_bad"
+            android:background="@drawable/bad_icon"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="23sp"
+            android:id="@+id/txt_mini_bad"/>
+    </LinearLayout>
+
+
+</LinearLayout>

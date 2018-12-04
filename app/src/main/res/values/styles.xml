@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#2c5c7f</item>
+        <item name="colorAccent">#2c5c7f</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+<style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">
+<item name= "android:windowBackground">@drawable/theme_splash</item>
+</style>
+
+<style name="LoginTheme" parent="@android:style/Theme.Light.NoTitleBar">
+<item name="android:windowBackground">@drawable/theme_login</item>
+</style>
+
+    <style name="JoinTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/theme_join</item>
+    </style>
+
+</resources>
